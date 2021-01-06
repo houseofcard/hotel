@@ -1,0 +1,33 @@
+Hi DEV!
+
+1. User Login
+Customer Account Login
+Username: mo1@hotmail.com
+Password: Maurice10
+
+Admin Section Login
+Username: mo2@hotmail.com
+Password: Maurice11
+
+If the users have not been created after a new upload:
+
+A. Create the User login through the register page
+
+B Create the Admin login by:
+
+In admin_guest.php comment the include_once "admin_login_checker.php" line
+
+// include login checker
+//include_once "admin_login_checker.php";
+
+In admin_create_guest.php comment the include_once "admin_login_checker.php" line
+
+// include login checker
+//include_once "admin_login_checker.php";
+
+This will allow you to directly access and open the admin.guest.php page 
+www.threecornerscafe.co.nz/hotel/admin/admin.guest.php
+
+Push the link button to access admin_crteate_guest.php
+
+Create the admin guest -  mo2@hotmail.com
