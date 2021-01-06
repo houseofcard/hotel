@@ -1,0 +1,17 @@
+<?php
+ob_start(); //this is so location header works
+?>
+<?php
+// login checker for 'admin' access level
+// if the session value is empty, he is not yet logged in, redirect him to login page
+if(empty($_SESSION['logged_in'])){
+    header("Location: ../login.php?action=not_yet_logged_in");
+}
+// if access level was not 'Admin', redirect him to login page
+else if($_SESSION['access_level']!="Admin"){
+	header("Location: index.php?action=not_admin");
+}
+else{
+	// no problem, stay on current page
+}
+?>
