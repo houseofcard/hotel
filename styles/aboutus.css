@@ -1,0 +1,114 @@
+/*********************************
+Intro
+*********************************/
+
+.section_title {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 136px;
+	color: #d3d3d3;
+	line-height: 0.75;
+	z-index: 0;
+}
+
+.section_title h1 {
+	position: relative;
+	font-size: 36px;
+	color: #150f24;
+	z-index: 1;
+	margin-top: -20px;
+}
+
+.intro_text {
+	margin-top: 49px;
+}
+
+.intro_image {
+	height: 100%;
+}
+
+/*********************************
+Offering
+*********************************/
+
+.offering
+{
+	background: #211c32;
+	padding-top: 104px;
+	padding-bottom: 50px;
+}
+.offering .section_title div {
+	/*color: rgba(255,255,255,0.08);*/
+	color: #585466;
+}
+
+.offering .section_title  h1 {
+	color: #ffffff;
+	margin-top: -30px;
+}
+
+.offering_row {
+	margin-top: 102px;
+}
+
+.offer {
+	margin-bottom: 60px;
+}
+
+.offer_title {
+	margin-top: 48px;
+}
+
+.offer_title h3 {
+	color: #ffffff;
+}
+
+.offer_text {
+	margin-top: 25px;
+}
+
+.offer_text p {
+	color: #bfc8d8;
+}
+
+/*********************************
+9. Discover
+*********************************/
+
+.discover {
+	background: #ffffff;
+	padding-top: 123px;
+}
+
+.discover_content {
+	width: 100%;
+}
+
+.discover_highlight {
+	margin-top: 34px;
+}
+
+.discover_highlight p {
+	font-size: 18px;
+	font-weight: 700;
+	font-style: italic;
+	color: #4a4f59;
+	line-height: 2;
+}
+
+.discover_text {
+	margin-top: 36px;
+}
+
+@media only screen and (max-width: 575px){
+	
+	.section_title {
+		font-size: 80px;
+	}
+		
+	.section_title h1 {
+		margin-top: -14px;
+		font-size: 24px;
+	}
+}
+

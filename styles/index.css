@@ -1,0 +1,336 @@
+/*********************************
+Intro
+*********************************/
+
+.section_title {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 136px;
+	color: #d3d3d3;
+	line-height: 0.75;
+	z-index: 0;
+}
+
+.section_title h1 {
+	position: relative;
+	font-size: 36px;
+	color: #150f24;
+	z-index: 1;
+	margin-top: -20px;
+}
+
+.intro_row {
+	margin-top: 49px;
+}
+
+.gallery_row {
+	margin-top: 89px;
+	margin-bottom: 89px;
+	width: 100%;
+}
+
+.gallery_slider_container {
+	width: 100%;
+}
+
+.owl-carousel,
+.owl-carousel .owl-stage-outer,
+.owl-carousel .owl-stage,
+.owl-carousel .owl-item {
+	height: 100%;
+}
+
+.gallery_slide {
+	height: 532px;
+}
+
+/*********************************
+Rooms
+*********************************/
+
+.rooms_right .owl-dots {
+	position: absolute;
+	right: 40px;
+	bottom: 31px;
+}
+
+.container_wrapper .container {
+	max-width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.container_wrapper .container .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.container_wrapper .container .row div[class^='col'] {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.rooms_slider_container {
+	height: 100%;
+}
+
+.slide {
+	height: 100%;
+}
+
+.background_image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.rooms_right_content {
+	background: #f4f5fa;
+	padding-top: 94px;
+	padding-left: 130px;
+	padding-bottom: 110px;
+	padding-right: 130px;
+	
+}
+
+.rooms_right_content .section_title div {
+	color: #dedcd6;
+}
+
+.rooms_right_content .section_title h1 {
+	margin-top: -30px;
+}
+
+.rooms_text {
+	margin-top: 30px;
+}
+
+.rooms_list {
+	margin-top: 36px;
+}
+
+.rooms_list ul li:not(:last-of-type) {
+	margin-bottom: 14px;
+}
+
+.rooms_list ul li img {
+	margin-right: 22px;
+}
+
+.rooms_list ul li span {
+	font-size: 15px;
+	font-weight: 400;
+	color: #4a4f59;
+}
+
+.rooms_price {
+	margin-top: 33px;
+	font-size: 36px;
+	font-weight: 700;
+	color: #ff9000;
+}
+
+.rooms_price span {
+	font-size: 18px;
+	font-weight: 700;
+	color: #4a4f59;
+	margin-left: 5px;
+}
+
+.rooms_left .owl-dots {
+	position: absolute;
+	left: 40px;
+	bottom: 31px;
+}
+
+.rooms_left_content {
+	background: #171126;
+	padding-left: 163px;
+	padding-top: 81px;
+	padding-right: 100px;
+	padding-bottom: 110px;
+}
+
+.rooms_left_content .section_title div {
+	color: #585466;
+	/*color: #3a3744;*/
+}
+
+.rooms_left_content .section_title h1 {
+	color: #edebf2;
+	margin-top: -31px;
+}
+
+.rooms_text {
+	margin-top: 30px;
+}
+
+.rooms_left_content .rooms_text p {
+	color: #bfc8d8;
+}
+
+.rooms_left_content .rooms_list ul li span {
+	color: #bfc8d8;
+}
+
+.rooms_left_content .rooms_price span {
+	color: #bfc8d8;
+}
+
+/*********************************
+Discover
+*********************************/
+
+.discover {
+	background: #ffffff;
+	padding-top: 123px;
+}
+
+.discover_content {
+	width: 100%;
+}
+
+.discover_highlight {
+	margin-top: 34px;
+}
+
+.discover_highlight p {
+	font-size: 18px;
+	font-weight: 700;
+	font-style: italic;
+	color: #4a4f59;
+	line-height: 2;
+}
+
+.discover_text {
+	margin-top: 36px;
+}
+
+.discover_slider_container {
+	width: 100%;
+	height: 436px;
+	margin-top: 110px;
+}
+
+.discover_slider_container h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+/*********************************
+Testimonials
+*********************************/
+
+.testimonials {
+	background: #ffffff;
+	padding-top: 128px;
+	padding-bottom: 98px;
+}
+
+.testimonials_row {
+	margin-top: 50px;
+}
+
+.testimonial_text {
+	padding-left: 36px;
+	padding-right: 36px;
+}
+
+.testimonial_text p {
+	font-size: 18px;
+	font-weight: 400;
+	color: #4a4f59;
+	font-style: italic;
+	line-height: 2;
+}
+
+.testimonial_author {
+	margin-top: 43px;
+}
+
+.testimonial_author_image {
+	width: 74px;
+	height: 74px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.testimonial_author_name {
+	margin-top: 37px;
+}
+
+.testimonial_author_name a {
+	font-size: 18px;
+	font-style: italic;
+	color: #4a4f59;
+	font-weight: 400;
+}
+
+.testimonial_author_name span {
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 400;
+	color: #ff9000;
+}
+
+@media only screen and (max-width: 575px){
+	/*.container_wrapper > .container {
+		max-width: 540px;
+	}*/
+
+	.intro {
+		max-width: 540px;
+		background: #ffffff;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+
+	.section_title {
+		font-size: 80px;
+	}
+		
+	.section_title h1 {
+		margin-top: -14px;
+		font-size: 24px;
+	}
+	
+	/* Rooms */
+	
+	.rooms_right_content,
+	.rooms_left_content {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	.rooms_right_content .section_title h1 {
+		margin-top: -19px;
+	}
+	
+	/* Testimonials */
+	
+	.testimonial_text {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	.testimonial_text p {
+		font-size: 16px;
+	}
+	
+	.testimonial_author_name span {
+		font-size: 16px;
+	}
+}

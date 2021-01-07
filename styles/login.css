@@ -1,0 +1,61 @@
+.login {
+	background: #ffffff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.login_form {
+	display: block;
+	width: 100%;
+}
+
+.login_input {
+	width: 50%;
+	height: 65px;
+	padding-left: 24px;
+	margin-bottom: 25px;
+	/*border: none;*/
+	outline: none;
+	background: #f4f5fa;
+	font-size: 15px;
+}
+
+.login_input::-webkit-input-placeholder {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	color: #4a4f59 !important;
+}
+
+.login_input:-moz-placeholder {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	color: #4a4f59 !important;
+}
+
+.login_input::-moz-placeholder {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	color: #4a4f59 !important;
+} 
+
+.login_input:-ms-input-placeholder { 
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	color: #4a4f59 !important;
+}
+
+.login_input::input-placeholder {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	color: #4a4f59 !important;
+}
+
+#passwordStrength {
+	font-size: 25px;
+}
+
+@media only screen and (max-width: 820px){
+	.login_input {
+		width: 95%;
+	}
+}
